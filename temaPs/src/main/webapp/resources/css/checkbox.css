@@ -1,0 +1,50 @@
+input[type="radio"], input[type="checkbox"] {
+	display: none;
+}
+
+input[type="radio"]+span:before, input[type="checkbox"]+span:before {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 15px;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+	margin-right: 5px;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 15px;
+	text-decoration: underline;
+}
+
+.checkFont {
+	font-size: 14px;
+	font-weight: 900;
+	margin-left: -5px;
+}
+
+input[type="radio"]+span:before {
+	content: "\e165"; /* record */
+	color: red;
+}
+
+input[type="radio"]:checked+span:before {
+	content: "\e089"; /* ok-circle */
+	color: green;
+}
+
+input[type="checkbox"]+span:before {
+	content: "\e157"; /* unchecked */
+}
+
+input[type="checkbox"]:checked+span:before {
+	content: "\e067";; /* check */
+}

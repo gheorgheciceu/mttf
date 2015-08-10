@@ -1,0 +1,21 @@
+table {
+	width: 100%;
+}
+
+.alertPoz {
+	position: relative;
+	left: 8%;
+	margin-right: 16%;
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+
+.searchPoz {
+	position: relative;
+	top: -55px;
+}
+
+.tabelPoz {
+	position: relative;
+	top: -131px;
+}

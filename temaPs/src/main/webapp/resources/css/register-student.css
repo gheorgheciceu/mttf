@@ -1,0 +1,22 @@
+body {
+    background-color: #ffffff;
+}
+.alertPoz {
+	position: relative;
+	left: 8%;
+	margin-right: 16%;
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+
+.formPoz {
+
+	widht: 50%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.tabelPoz {
+	position: relative;
+	top: -131px;
+}

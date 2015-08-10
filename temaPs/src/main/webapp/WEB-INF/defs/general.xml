@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="common" template="/WEB-INF/layout/classic.jsp">
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="nothing" template="/WEB-INF/layout/classic3.jsp">
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+	</definition>
+	<definition name="navAndFooter" template="/WEB-INF/layout/classic2.jsp">
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+
+	</definition>
+	<definition name="index" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="login" extends="common">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+
+
+	<definition name="mylogin" extends="common">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="body" value="/WEB-INF/jsp/mylogin.jsp" />
+	</definition>
+
+
+	<definition name="register-categoryType" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/register-categoryType.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="edit-categoryType" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/edit-categoryType.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="search-categoryType" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/search-categoryType.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+
+	<definition name="register-professor" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/register-professor.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="search-professor" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="body" value="/WEB-INF/jsp/search-professor.jsp" />
+	</definition>
+	<definition name="professor" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/professor.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="edit-professor" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/edit-professor.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+
+	<definition name="register-studentType" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/register-studentType.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="studentType" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/studentType.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="edit-studentType" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/edit-studentType.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="student-timetable" extends="common">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="body" value="/WEB-INF/jsp/student-timetable.jsp" />
+	</definition>
+	<definition name="search-studentType" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/search-studentType.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+
+
+	<definition name="timetable" extends="navAndFooter">
+		<put-attribute name="title" value="SDMS" />
+		<put-attribute name="navBar" value="/WEB-INF/layout/navBar.jsp" />
+		<put-attribute name="body" value="/WEB-INF/jsp/timetable.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+
+	<definition name="admin-add-user" extends="common">
+		<put-attribute name="title" value="PS" />
+		<put-attribute name="body" value="/WEB-INF/jsp/admin-add-user.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+
+	<definition name="admin-get-all-users" >
+		<put-attribute name="title" value="PS" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/admin-get-all-users.jsp" />
+		
+	</definition>
+	<definition name="admin-delete-user" extends="common">
+		<put-attribute name="title" value="PS" />
+		<put-attribute name="body" value="/WEB-INF/jsp/admin-delete-user.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="admin-edit-user" extends="common">
+		<put-attribute name="title" value="PS" />
+		<put-attribute name="body" value="/WEB-INF/jsp/admin-edit-user.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="user-add-customer" extends="common">
+		<put-attribute name="title" value="PS" />
+		<put-attribute name="body" value="/WEB-INF/jsp/user-add-customer.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="user-get-all-customers" extends="common">
+		<put-attribute name="title" value="PS" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/user-get-all-customers.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	<definition name="user-edit-customer" extends="common">
+		<put-attribute name="title" value="PS" />
+		<put-attribute name="body"
+			value="/WEB-INF/jsp/user-edit-customer.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+
+	<definition name="account-add" extends="common">
+		<put-attribute name="title" value="PS" />
+		<put-attribute name="body" value="/WEB-INF/jsp/account-add.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+</tiles-definitions>

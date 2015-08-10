@@ -1,0 +1,20 @@
+.glow:hover { 
+	text-shadow: 0px 0px 5px #FFFFFF; 
+	background: rgba(255,255,255,1);
+	color: #408080;
+	}
+#iconified:hover { 
+	text-shadow: 0px 0px 5px #FFFFFF; 
+	background: rgba(255,255,255,1);
+	color: #408080;
+	-webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    text-shadow: 1px 0px 20px #408080;
+	}
+#iconified{
+	font-size:16px;
+	color:#FFF;
+      transition: all 0.3s ease-in;
+      text-decoration:none;
+	}
